@@ -9,4 +9,52 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+
+.jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  h1 {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+  }
+  p {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    text-align: center;
+  }
+}
+
+.navbar {
+  a:hover {
+    text-decoration: underline;
+    }
+  .active {
+    font-weight: bold;
+  }
+}
+
+.container {
+  h1 {
+    font-family:'Shadows Into Light', cursive;
+  }
+  h2 {
+    font-family: 'cursive';
+  }
+  p {
+    font-family: 'Lobster', cursive;
+  }
+  }
+
+
+footer {
+  background-color: grey;
+  text-align: center;
+  color:white;
+  }
+
 // Import partials here
